@@ -1,7 +1,7 @@
 nav{
     display: grid;
     grid-template-columns: 100px 1fr;
-    padding: 7px 100px;
+    padding: 10px 100px;
 }
 
 img{
@@ -23,10 +23,15 @@ img{
     color: #ffc576;
 }
 
-/* .navLinkArea a:hover{
+.navLink{
     height: 100%;
-    border-bottom: 3px solid #ffc576;
-} */
+    display: grid;
+    place-items: center;
+}
+
+.navLink:hover{
+    border-bottom: 1px solid #ffc576;
+}
 
 .resumeLink{
     color: #ffc576;

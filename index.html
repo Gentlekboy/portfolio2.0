@@ -21,13 +21,25 @@
                 </a>
             </div>
 
-            <div class="navLinkArea">
-                <a href="index.html">HOME</a>
-                <a href="#about">ABOUT</a>
-                <a href="#tools">TOOLS</a>
-                <a href="#projects">PROJECTS</a>
-                <a href="contact">CONTACT</a>
-                <a href="https://docs.google.com/document/d/1VH137maVBL5fYM6D1s9NxJxInUw6jjqa0uSDbgzcCBY/edit?usp=sharing" class="resumeLink">RESUME</a>
+            <div id="mobileNav" class="navLinkArea">
+                <div class="navLink">
+                    <a href="index.html">HOME</a>
+                </div>
+                <div class="navLink">
+                    <a href="#about">ABOUT</a>
+                </div>
+                <div class="navLink">
+                    <a href="#tools">TOOLS</a>
+                </div>
+                <div class="navLink">
+                    <a href="#projects">PROJECTS</a>
+                </div>
+                <div class="navLink">
+                    <a href="contact">CONTACT</a>
+                </div>
+                <div class="navResume">
+                    <a href="https://docs.google.com/document/d/1VH137maVBL5fYM6D1s9NxJxInUw6jjqa0uSDbgzcCBY/edit?usp=sharing" class="resumeLink">RESUME</a>
+                </div>
             </div>
 
             <button id="btn" class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
@@ -39,5 +51,7 @@
               </button>
         </nav>
     </header>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,5 +1,28 @@
-@media screen and (max-width: 762px){
+@media screen and (max-width: 1024px){
+    nav{
+        padding: 30px 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
     #btn{
         display: block;
+    }
+
+    .navLinkArea{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6, 80px);
+        justify-items: start;
+        letter-spacing: 5px;
+        padding-left: 50px;
+    }
+    
+    .show{
+        display: grid;
     }
 }
