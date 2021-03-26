@@ -2,6 +2,7 @@ nav{
     display: grid;
     grid-template-columns: 100px 1fr;
     padding: 10px 100px;
+    transition: ease-in-out 1s;
 }
 
 .logoArea img{
@@ -14,7 +15,6 @@ nav{
     grid-template-columns: repeat(6, 120px);
     place-items: center;
     justify-self: end;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     letter-spacing: -0.6px;
 }
@@ -31,12 +31,19 @@ nav{
 
 .navLink:hover{
     border-bottom: 1px solid #ffc576;
+    transition: ease-in-out 1s;
 }
 
 .resumeLink{
     color: #ffc576;
     border: 1px solid #ffc576;
     padding: 10px 30px;
+    transition: ease-in-out 0.2s;
+}
+
+.resumeLink:hover{
+    background: #313552;
+    transition: ease-in-out 0.2s;
 }
 
 #btn{
