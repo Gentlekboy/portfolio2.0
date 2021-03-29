@@ -2,6 +2,19 @@
     nav{
         padding: 30px 50px;
     }
+
+    .hero{
+        height: 45vh;
+        padding: 0 50px;
+    }
+
+    #about{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 50px;
+        background-image:  linear-gradient(90deg, #313552 0%, #313552 100%);
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -20,10 +33,16 @@
         justify-items: start;
         letter-spacing: 5px;
         padding-left: 50px;
+        background-image:  linear-gradient(100deg, #1f2235 0%, #21243b 100%);
     }
     
     .show{
         display: grid;
+    }
+
+    .aboutLinks .resumeLink,
+    .contactLink{
+        padding: 10px 30px;
     }
 }
 
