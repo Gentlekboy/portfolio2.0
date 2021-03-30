@@ -8,16 +8,33 @@
         padding: 0 50px;
     }
 
-    #about{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    #about,
+    #tools,
+    #contact{
+        grid-template-columns: 0.7fr 1fr;
         grid-gap: 10px;
-        padding: 50px;
-        background-image:  linear-gradient(90deg, #313552 0%, #313552 100%);
+        padding: 30px;
+    }
+
+    i{
+        font-size: 60px;
+    }
+
+    .contactLinkTile{
+        padding: 10px;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 912px){
+    nav,
+    .hero,
+    #about,
+    #tools,
+    #contact{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     #btn{
         display: block;
     }
@@ -32,7 +49,7 @@
         grid-template-rows: repeat(6, 80px);
         justify-items: start;
         letter-spacing: 5px;
-        padding-left: 50px;
+        padding-left: 30px;
         background-image:  linear-gradient(100deg, #1f2235 0%, #21243b 100%);
     }
     
@@ -44,9 +61,33 @@
     .contactLink{
         padding: 10px 30px;
     }
+
+    .hero{
+        height: 35vh;
+    }
+
+    #about,
+    #tools,
+    #contact{
+        grid-template-columns: 0.5fr 1fr;
+        grid-gap: 20px;
+    }
+
+    #tools .description{
+        grid-gap: 0;
+        grid-row-gap: 30px;
+    }
+
+    i{
+        font-size: 45px;
+    }
+
+    .contactLinkTile{
+        padding: 5px 10px;
+    }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 680px){
     nav{
         padding: 20px 0 20px 15px;
     }
@@ -59,5 +100,74 @@
         top: 80px;
         grid-template-rows: repeat(6, 60px);
         padding-left: 15px;
+    }
+
+    nav,
+    .hero,
+    #about,
+    #tools,
+    #contact{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    h2{
+        font-size: 1.2rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+    
+    small{
+        font-size: 1rem;
+    }
+
+    #about,
+    #tools,
+    #contact{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 30px;
+    }
+
+    .title small{
+        font-size: 0.8rem;
+    }
+
+    .aboutLinks{
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 20px;
+    }
+
+    .aboutLinks .resumeLink,
+    .contactLink{
+        text-align: center;
+        padding: 10px 0;
+        margin-left: 0;
+    }
+
+    #tools .description{
+        grid-gap: 20px;
+    }
+
+    #contact .description{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+
+    .contactLinkName h3{
+        font-size: 1.1rem;
+    }
+    
+    .contactLinkName small{
+        font-size: 0.8rem;
     }
 }
