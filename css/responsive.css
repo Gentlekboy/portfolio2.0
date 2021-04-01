@@ -4,8 +4,7 @@
     }
 
     .hero{
-        height: 45vh;
-        padding: 0 50px;
+        padding: 100px 50px;
     }
 
     #about,
@@ -41,6 +40,10 @@
         padding-right: 30px;
     }
 
+    .hero{
+        padding: 100px 30px;
+    }
+
     #btn{
         display: block;
     }
@@ -68,16 +71,14 @@
         padding: 10px 30px;
     }
 
-    .hero{
-        height: 35vh;
-    }
-
     #about,
     #tools,
     #contact,
     #projects{
         grid-template-columns: 0.5fr 1fr;
         grid-gap: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     #tools .description{
@@ -125,6 +126,18 @@
     #projects{
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .hero{
+        padding: 50px 30px;
+    }
+
+    #about,
+    #tools,
+    #contact,
+    #projects{
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
 
     h1{

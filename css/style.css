@@ -12,12 +12,9 @@ body{
 }
 
 .hero{
-    height: 65vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0 100px;
+    padding: 100px 100px;
     transition: ease-in-out 1s;
 }
 
@@ -158,11 +155,13 @@ i{
 }
 
 #projects .description{
-    /* width: 110%; */
-    /* height: 600px; */
     display: flex;
     align-items: center;
     overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-snap-points-y: repeat(350px);
+    scroll-snap-align: start;
+    /* scroll-snap-stop: always; */
 }
 
 #projects .description::-webkit-scrollbar{
@@ -172,8 +171,6 @@ i{
 .projectList{
     min-width: 50%;
     height: 100%;
-    /* position: relative;
-    left: 0; */
     margin: 0 20px 0 0;
     background-image:  linear-gradient(100deg, #1f2235 0%, #21243b 100%);
 }
@@ -214,3 +211,17 @@ picture img{
     padding: 10px 0;
     transition: ease-in-out 0.2s;
 }
+
+#about a:hover{
+    background: #1f2235;
+    transition: ease-in-out 0.1s;
+}
+
+#projects a:hover{
+    background: #313552;
+    transition: ease-in-out 0.1s;
+}
+
+#contact .contactLinkTile:hover{
+    background: #313552;
+    transition: ease-in-out 0.1s;

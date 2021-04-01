@@ -43,7 +43,7 @@ nav{
 
 .resumeLink:hover{
     background: #313552;
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.1s;
 }
 
 #btn{
