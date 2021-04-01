@@ -10,7 +10,8 @@
 
     #about,
     #tools,
-    #contact{
+    #contact,
+    #projects{
         grid-template-columns: 0.7fr 1fr;
         grid-gap: 10px;
         padding: 30px;
@@ -22,6 +23,11 @@
 
     .contactLinkTile{
         padding: 10px;
+    }
+
+    .projectList{
+        min-width: 350px;
+        margin: 0 20px 0 0;
     }
 }
 
@@ -68,7 +74,8 @@
 
     #about,
     #tools,
-    #contact{
+    #contact,
+    #projects{
         grid-template-columns: 0.5fr 1fr;
         grid-gap: 20px;
     }
@@ -84,6 +91,14 @@
 
     .contactLinkTile{
         padding: 5px 10px;
+    }
+
+    .projectList{
+        margin: 0 15px 0 0;
+    }
+
+    .projectInfo{
+        padding: 25px 30px;
     }
 }
 
@@ -106,7 +121,8 @@
     .hero,
     #about,
     #tools,
-    #contact{
+    #contact,
+    #projects{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -129,7 +145,8 @@
 
     #about,
     #tools,
-    #contact{
+    #contact,
+    #projects{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, auto);
         grid-gap: 30px;
@@ -169,5 +186,19 @@
     
     .contactLinkName small{
         font-size: 0.8rem;
+    }
+
+    .projectList{
+        min-width: 350px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .projectList{
+        min-width: 100%;
+    }
+
+    .projectInfo{
+        padding: 15px;
     }
 }
