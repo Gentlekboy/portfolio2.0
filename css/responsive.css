@@ -204,14 +204,24 @@
     .projectList{
         min-width: 350px;
     }
+
+    #projects i{
+        font-size: 20px;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width: 378px){
     .projectList{
         min-width: 100%;
     }
 
     .projectInfo{
         padding: 15px;
+    }
+
+    #projects i{
+        padding: 5px 15px;
     }
 }
