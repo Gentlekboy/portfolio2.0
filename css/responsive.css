@@ -132,6 +132,10 @@
         padding: 50px 30px;
     }
 
+    .underline{
+        display: none;
+    }
+
     #about,
     #tools,
     #contact,
@@ -213,6 +217,10 @@
 }
 
 @media screen and (max-width: 378px){
+    .logoArea img{
+        width: 40px;
+    }
+
     .projectList{
         min-width: 100%;
     }
