@@ -5,6 +5,11 @@ nav{
     transition: ease-in-out 1s;
 }
 
+.logoArea{
+    display: grid;
+    place-items: center;
+}
+
 .logoArea img{
     width: 70px;
 }
