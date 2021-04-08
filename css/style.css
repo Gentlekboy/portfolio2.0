@@ -40,6 +40,10 @@ small{
     color: #ffc576;
 }
 
+em{
+    color: #ffc576;
+}
+
 #about{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
