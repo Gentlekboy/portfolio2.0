@@ -164,8 +164,12 @@ i{
 }
 
 .sliderBtn{
-    display: flex;
-    justify-self: end;
+    display: flex!important;
+    justify-self: end!important;
+}
+
+button.carousel-control-prev{
+
 }
 
 #projects i{
@@ -189,6 +193,10 @@ i{
 
 #projects .description::-webkit-scrollbar{
     display: none;
+}
+
+.carousel-item{
+    /* width: 50%; */
 }
 
 .projectList{
