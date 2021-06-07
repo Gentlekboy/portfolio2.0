@@ -40,10 +40,6 @@
         padding-right: 30px;
     }
 
-    .hero{
-        padding: 100px 30px;
-    }
-
     #btn{
         display: block;
     }
@@ -129,7 +125,7 @@
     }
 
     .hero{
-        padding: 50px 30px;
+        padding: 50px 20px;
     }
 
     .underline{

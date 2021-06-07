@@ -7,7 +7,6 @@ nav{
 
 .logoArea{
     display: grid;
-    place-items: center;
 }
 
 .logoArea img{
