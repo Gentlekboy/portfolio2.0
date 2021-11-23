@@ -1,3 +1,6 @@
-### Hi there 👋
-Being driven to always learn, I have taught myself how to build responsive web pages and web applications using modern front-end technologies (HTML/CSS, Bootstrap and JavaScript). I am currently learning to build android applications using Java and Kotlin and also looking forward to building iOS applications using a cross-platform language like flutter or react native. I am open to collaborations. 
-Here's a link to my portfolio: https://gentlekboy.github.io/gentlekboy/
+# Hello World
+I am a software engineer with a background in front-end web development and a focus on Android development.  
+  
+My latest Android application seeks to assist local and foreign tourists in Nigeria in finding hotels with the best deals around them, enabling them to book their preferred room(s) and make payments using the PayStack API.  
+  
+I am motivated by the opportunities software provides to positively impact the life of an individual and the world as a whole.
