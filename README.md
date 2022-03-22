@@ -1,6 +1,2 @@
 # Hello World
-I am a software engineer with a background in front-end web development and a focus on Android development.  
-  
-My latest Android application seeks to assist local and foreign tourists in Nigeria in finding hotels with the best deals around them, enabling them to book their preferred room(s) and make payments using the PayStack API.  
-  
-I am motivated by the opportunities software provides to positively impact the life of an individual and the world as a whole.
+I am a highly adaptive Android developer looking to be part of a dynamic establishment that offers a consistently positive atmosphere where I can solve problems innovatively and efficiently as well as enhance my professional skills whilst also contributing to the growth and success of the organization.
