@@ -1,21 +1,20 @@
-
 # 💫 About Me:
 
-🚀 Currently working on a targetted savings mobile application
+🚀  Currently working on a targetted savings mobile application
 
-👥 Looking forward to collaborating on Native Android applications and/or React Native applications 
+👥  Looking forward to collaborating on Native Android applications and/or React Native applications 
 
-💻 Comfortable writing mobile applications with Kotlin and TypeScript 
+💻  Comfortable writing mobile applications with Kotlin and TypeScript 
 
-🤝 Looking for assistance/pointers on understanding the React ecosystem 
+🤝  Looking for assistance/pointers on understanding the React ecosystem 
 
-📕 Currently learning state management with Redux Toolkit and Redux Toolkit Query 
+📕  Currently learning state management with Redux Toolkit and Redux Toolkit Query 
 
-⚡️ Die hard Naruto fanboy
+⚡️  Die hard Naruto fanboy
 
 ## 🌐 Socials:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/gentlekboy/) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/https://twitter.com/Gentlekboy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gentlekboy) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/gentlekboy)
 
 # 💻 Tech Stack:
 
@@ -23,13 +22,9 @@
 
 # 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=gentlekboy&theme=dark&hide_border=false&include_all_commits=true&count_private=true)`<br/>`
-![](https://github-readme-streak-stats.herokuapp.com/?user=gentlekboy&theme=dark&hide_border=false)`<br/>`
+![img](https://github-readme-stats.vercel.app/api?username=gentlekboy&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+![img](https://github-readme-streak-stats.herokuapp.com/?user=gentlekboy&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=gentlekboy&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=gentlekboy&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 ---
 
