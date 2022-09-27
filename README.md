@@ -1,7 +1,17 @@
 
 # 💫 About Me:
 
-🚀 Currently working on a targetted savings mobile application`<br>`👥 Looking forward to collaborating on Native Android applications and/or React Native applications`<br>`💻 Comfortable writing mobile applications with Kotlin and TypeScript`<br>`🤝 Looking for assistance/pointers on understanding the React ecosystem`<br>`📕 Currently learning state management with Redux Toolkit and Redux Toolkit Query`<br>`⚡️ Die hard Naruto fanboy
+🚀 Currently working on a targetted savings mobile application
+
+👥 Looking forward to collaborating on Native Android applications and/or React Native applications 
+
+💻 Comfortable writing mobile applications with Kotlin and TypeScript 
+
+🤝 Looking for assistance/pointers on understanding the React ecosystem 
+
+📕 Currently learning state management with Redux Toolkit and Redux Toolkit Query 
+
+⚡️ Die hard Naruto fanboy
 
 ## 🌐 Socials:
 
